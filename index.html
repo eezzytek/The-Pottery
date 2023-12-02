@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>The Pottery - твій магазин посуду</title>
+</head>
+<body>
+    <header class="container header">
+        <nav class="nav flex">
+            <a href="./index.html"><img src="./image/logo_pottery.png" alt="The Pottery" class="logo"></a>
+            <ul class="nav_elements">
+                <li class="header_li"><a href="./html/about.html" class="header_link">Про магазин</a></li>
+                <li class="header_li"><a href="./html/products.html" class="header_link">Продукція</a></li>
+                <li class="header_li"><a href="./html/feedback.html" class="header_link">Відгуки</a></li>
+                <li class="header_li"><a href="./html/contacts.html" class="header_link">Контакти</a></li>
+            </ul>
+            <a href="#"><button class="btn_order">Замовити</button></a>
+        </nav>
+    </header>
+    <main class="main_main">
+        <div class="container flex">
+            <div class="main_info">
+                <h1 class="main_title"> Просто замовляй<br><span class="main_title title_span">та насолоджуйся</span></h1>
+                <p class="main_text">У нашому магазині <span class="bold">The Pottery</span> ви можете вибрати елегантний посуд на будь-який смак. Обирайте стильні рішення разом з нами!</p>
+                <form action="./html/help.html">
+                    <input type="phone" placeholder="Введіть Ваш номер телефону" class="main_input">
+                    <a href="#"><button class="btn main_btn">Проконсультувати</button></a>
+                </form>
+            </div>
+            <div class="main_pic">
+                <img src="./image/main_pic.png" alt="Main pic" class="main_pic">
+            </div>  
+        </div>
+    </main>
+    <section class="main_product">
+        <div class="container flex">
+            <div class="main_product_desc">
+                <h1 class="main_title">Продукція нашого магазину</h1>
+                <p class="main_text_about">Магазин посуду “The Pottery” пропонує широкий вибір  посуду та виробів для дому - від тарілок та чашок до стильних ваз та глеків для вашого інтер’єру. Наша продукція доповнить будь-яку оселю, наповнить її красою та елегантністю!</p>
+                <a href="./html/about.html"><button class="btn btn_about">Про магазин</button></a>
+            </div>
+            <div class="main_cards flex">
+                <div class="card">
+                    <img src="./image/product_1.jpg" alt="Card 1" class="card_img">
+                    <div class="card_info">
+                        <h1 class="card_title">Тарілки</h1>
+                        <p class="card_desc">Отримуйте естетичне задоволення від їжі</p>
+                        <a href="./html/products.html"><button class="btn">Детальніше</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./image/product_8.jpg" alt="Card 2" class="card_img">
+                    <div class="card_info">
+                        <h1 class="card_title">Вази</h1>
+                        <p class="card_desc">Зробіть композицію квітів більш привабливою</p>
+                        <a href="./html/products.html"><button class="btn">Детальніше</button></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section class="main_feedback">
+        <h1 class="main_title title_feed">Відгуки</h1>
+            <div class="feedback_cards container flex">
+                <div class="main_feed_card">
+                    <div class="identity card_flex">
+                        <img src="./image/customer_1.png" alt="Customer 1" class="customer">
+                        <div class="name_rank">
+                            <h1 class="name">Андрій</h1>
+                            <img src="./image/stars.png" alt="Rank" class="rank">
+                        </div>
+                    </div>
+                    <div class="feed_info">
+                        <p class="main_text main_card_text">Чудовий магазин, рекомендую! Якість просто на висоті</p>  
+                    </div>
+                </div>
+                <div class="main_feed_card">
+                    <div class="identity card_flex">
+                        <img src="./image/customer_2.png" alt="Customer 2" class="customer">
+                        <div class="name_rank">
+                            <h1 class="name">Катерина</h1>
+                            <img src="./image/stars.png" alt="Rank" class="rank">
+                        </div>
+                    </div>
+                    <div class="feed_info">
+                        <p class="main_text main_card_text">Швидка доставка та пречудове обслуговування - однозначно так!</p> 
+                    </div>
+                </div>
+                <div class="main_feed_card">
+                    <div class="identity card_flex">
+                        <img src="./image/customer_3.png" alt="Customer 3" class="customer">
+                        <div class="name_rank">
+                            <h1 class="name">Діана</h1>
+                            <img src="./image/stars.png" alt="Rank" class="rank">
+                        </div>
+                    </div>
+                    <div class="feed_info">
+                        <p class="main_text main_card_text">Ці вази - то просто моя любов! Дякую за те, що ви є)</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="footer flex">
+        <div class="arr">
+            <h1 class="footer_desc">© The Pottery, 2022. All rights reserved</h1>
+        </div>
+        <div class="footer_contacts">
+            <h1 class="footer_desc">+(380)63-643-25-37</h1>
+            <h1 class="footer_desc">Вул. Соборна, 13</h1>
+            <h1 class="footer_desc no_margin">thepottery@gmail.com</h1>
+        </div>
+    </footer>
+</body>
+</html>
